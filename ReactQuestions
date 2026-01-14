@@ -1,0 +1,440 @@
+Skip to content
+Chat history
+
+
+
+
+You said:
+react interview practical question 
+ChatGPT said:
+Hello, Master Ray 👋
+Here are common React interview practical questions that are actually asked in interviews, especially for intern / fresher / junior roles. I’m giving them in task-based format, so you know what to practice, not just theory.
+
+🔹 1. Counter App (State + Events)
+Task:
+Create a counter with Increment, Decrement, Reset buttons.
+
+They check:
+
+useState
+
+Event handling
+
+Re-render understanding
+
+👉 Follow-up they ask:
+
+Why state update is async?
+
+🔹 2. Conditional Rendering
+Task:
+Show Login / Logout button based on user login state.
+
+They check:
+
+Ternary operator
+
+Conditional JSX
+
+{isLoggedIn ? <Logout /> : <Login />}
+🔹 3. Todo List (MOST IMPORTANT) ⭐
+Task:
+
+Add todo
+
+Delete todo
+
+Mark as completed
+
+They check:
+
+Array state updates
+
+map, filter
+
+Keys in React
+
+👉 Follow-up:
+
+Why key is important?
+Why not use index as key?
+
+🔹 4. Form Handling
+Task:
+Create a form with name + email, show data on submit.
+
+They check:
+
+Controlled components
+
+onChange
+
+preventDefault
+
+🔹 5. useEffect – API Call
+Task:
+Fetch data from API and display list.
+
+They check:
+
+useEffect
+
+Dependency array
+
+Side effects
+
+👉 Trap question:
+
+What happens if dependency array is empty?
+
+🔹 6. Search Filter
+Task:
+Search input → filter list in real time.
+
+They check:
+
+Derived state
+
+Performance thinking
+
+You said:
+i need only all question only not ans
+ChatGPT said:
+Hello, Master Ray 👋
+As requested — only React practical interview questions, no answers, no explanations.
+
+🔹 React Practical Interview Questions (Hands-On)
+Create a counter app with increment, decrement, and reset functionality.
+
+Build a login/logout toggle using conditional rendering.
+
+Create a todo list with add, delete, and mark-complete features.
+
+Handle a controlled form with name and email inputs and submit action.
+
+Fetch data from an API and display it using useEffect.
+
+Implement a search filter to filter a list in real time.
+
+Create a timer/stopwatch with start, pause, and reset.
+
+Build a modal component with open and close functionality.
+
+Implement dark/light theme toggle using state.
+
+Pass data from parent to child using props.
+
+Send data from child to parent using callback functions.
+
+Use useEffect cleanup to clear an interval or event listener.
+
+Prevent unnecessary re-renders using React.memo.
+
+Optimize a function using useCallback.
+
+Optimize expensive calculations using useMemo.
+
+Create a custom hook for fetching data.
+
+Implement form validation without external libraries.
+
+Build a dropdown component with outside-click close behavior.
+
+Display a list using map and assign proper keys.
+
+Conditionally render components based on user role.
+
+Implement lazy loading using React.lazy and Suspense.
+
+Create a pagination system for a list.
+
+Build a tab switcher component.
+
+Handle error boundaries in a React app.
+
+Create a debounced search input.
+
+Implement protected routes in React.
+
+Build a reusable button component.
+
+Manage global state using Context API.
+
+Create a file upload component with preview.
+
+Handle API loading and error states.
+
+If you want, next I can:
+✔️ Convert this into daily practice tasks
+✔️ Mark most asked vs rarely asked
+✔️ Make a mock interview round (timer-based)
+
+You said:
+array inside object binggner to advance question only in js
+ChatGPT said:
+Hello, Master Ray 👋
+As requested — only JavaScript questions, array inside object, beginner → advanced, NO answers.
+
+🟢 Beginner Level
+Access an array inside an object and print all its elements.
+
+Get the first and last element of an array stored inside an object.
+
+Find the length of an array that is a property of an object.
+
+Loop through an array inside an object using for loop.
+
+Loop through an array inside an object using forEach.
+
+Add a new element to an array inside an object.
+
+Remove the last element from an array inside an object.
+
+Check if a property of an object is an array.
+
+Replace a specific value inside an array within an object.
+
+Convert an array inside an object into a string.
+
+🟡 Intermediate Level
+Count how many elements are present in an array inside an object.
+
+Find the sum of numbers in an array stored inside an object.
+
+Find the maximum value from an array inside an object.
+
+Filter even numbers from an array inside an object.
+
+Sort an array inside an object in ascending order.
+
+Check if an array inside an object contains a specific value.
+
+Merge two arrays that are inside two different objects.
+
+Remove duplicate values from an array inside an object.
+
+Update all elements of an array inside an object using map.
+
+Convert an array inside an object into an object.
+
+🔴 Advanced Level
+Deep clone an object that contains arrays (without mutation).
+
+Flatten a nested array inside an object.
+
+Find the intersection of two arrays stored in different objects.
+
+Group objects by a property when an array of objects is inside an object.
+
+Sort an array of objects (inside an object) by a key.
+
+Find the most frequent element in an array inside an object.
+
+Remove elements based on a condition from an array inside an object.
+
+Compare two objects that contain arrays for deep equality.
+
+Update a deeply nested array value inside an object immutably.
+
+Transform an object containing arrays into a different structure.
+
+If you want next:
+
+🔥 MCQ version
+
+🧠 Company-wise interview level
+
+🧪 Practice test (timed)
+Just bataye 👍
+
+You said:
+give input and output
+ChatGPT said:
+Hello, Master Ray 👋
+Below are array-inside-object JavaScript questions with ONLY Input & Output (Beginner → Advanced).
+❌ No explanation, ❌ no solution code.
+
+🟢 Beginner Level (Input → Output)
+1.
+Input:
+
+{ numbers: [1, 2, 3, 4] }
+Output:
+
+[1, 2, 3, 4]
+2.
+Input:
+
+{ items: ["apple", "banana", "mango"] }
+Output:
+
+{ first: "apple", last: "mango" }
+3.
+Input:
+
+{ marks: [10, 20, 30, 40] }
+Output:
+
+4
+4.
+Input:
+
+{ values: [5, 10, 15] }
+Output:
+
+[5, 10, 15]
+5.
+Input:
+
+{ data: [1, 2, 3] }
+Output:
+
+true
+🟡 Intermediate Level
+6.
+Input:
+
+{ nums: [1, 2, 3, 4, 5] }
+Output:
+
+15
+7.
+Input:
+
+{ scores: [45, 67, 89, 12] }
+Output:
+
+89
+8.
+Input:
+
+{ numbers: [1, 2, 3, 4, 5, 6] }
+Output:
+
+[2, 4, 6]
+9.
+Input:
+
+{ arr: [3, 1, 4, 2] }
+Output:
+
+[1, 2, 3, 4]
+10.
+Input:
+
+{ values: [10, 20, 10, 30, 20] }
+Output:
+
+[10, 20, 30]
+🔴 Advanced Level
+11.
+Input:
+
+You said:
+array inside object in js give question one by one
+ChatGPT said:
+Hello, Master Ray 👋
+Perfect. I’ll give you array-inside-object JavaScript questions, ONE BY ONE, in interview style.
+
+We’ll go Beginner → Advanced.
+Each question will have only the question + input/output.
+No solution unless you ask.
+
+🟢 Question 1 (Beginner)
+Task:
+Access and return the array stored inside the object.
+
+Input:
+
+const data = {
+  numbers: [1, 2, 3, 4]
+};
+Expected Output:
+
+[1, 2, 3, 4]
+👉 When you’re ready, type “next” and I’ll give Question 2.
+
+You said:
+array inisde object in js 
+ChatGPT said:
+Hello, Master Ray 👋
+
+We’ll do array inside object in JavaScript, one question at a time.
+
+🟢 Question 1 (Beginner)
+Task:
+Return the array that is stored inside the object.
+
+Input:
+
+const obj = {
+  skills: ["HTML", "CSS", "JavaScript"]
+};
+Expected Output:
+
+["HTML", "CSS", "JavaScript"]
+Type next when you want Question 2.
+
+You said:
+next 
+ChatGPT said:
+Hello, Master Ray 👋
+
+🟢 Question 2 (Beginner)
+Task:
+Return the first element of the array stored inside the object.
+
+Input:
+
+const obj = {
+  colors: ["red", "green", "blue"]
+};
+Expected Output:
+
+"red"
+Type next for Question 3.
+
+You said:
+hard question
+ChatGPT said:
+Hello, Master Ray 👋
+
+Here’s a HARD (Advanced) JavaScript question on array inside object — single question, input & output only.
+
+🔴 Hard Question
+Task:
+From an object containing an array of objects, return a new object where keys are category values and values are arrays of product names, only for products with price > 1000.
+
+Input:
+
+const data = {
+  products: [
+    { name: "Laptop", category: "Electronics", price: 50000 },
+    { name: "Mouse", category: "Electronics", price: 500 },
+    { name: "Shirt", category: "Clothing", price: 1500 },
+    { name: "Jeans", category: "Clothing", price: 800 },
+    { name: "Watch", category: "Accessories", price: 3000 }
+  ]
+};
+Expected Output:
+
+{
+  Electronics: ["Laptop"],
+  Clothing: ["Shirt"],
+  Accessories: ["Watch"]
+}
+If you want:
+
+🔥 More hard questions
+
+🧠 FAANG-level version
+
+🧪 Time-limited interview round
+
+Just bataye 👍
+
+
+
+
+No file chosenNo file chosen
+ChatGPT can make mistakes. Check important info. See Cookie Preferences.
